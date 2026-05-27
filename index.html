@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Myntra Clone</title>
+	
+	<style>
+			.sub-div {
+				position:relative;
+			}
+			.div {
+				border:2px solid black;
+				position:absolute;
+				width:1150px; 
+				
+				padding:5px; 
+				margin-left:-30px;  
+				display:none;
+				top:51px;
+				
+			}
+			.sub-div:hover {
+				background-color:white;
+			}
+			.sub-div:hover .div {
+				display:block;
+			}
+	
+	
+	
+	
+	
+			.sub-div1 {
+				position:relative;
+			}
+			.div1 {
+				border:2px solid black;
+				position:absolute;
+				width:1050px; 
+			
+				padding:5px; 
+				margin-left:-40px;  
+				display:none;
+				top:51px;
+				
+			}
+			.sub-div1:hover {
+				background-color:white;
+			}
+			.sub-div1:hover .div1 {
+				display:block;
+			}
+	
+	
+	
+			.sub-div3 {
+				position:relative;
+			}
+			.div3 {
+				border:2px solid black;
+				position:absolute;
+				width:1150px; 
+				
+				padding:5px; 
+				margin-left:-90px;  
+				display:none;
+				top:51px;
+				
+			}
+			.sub-div3:hover {
+				background-color:white;
+			}
+			.sub-div3:hover .div3 {
+				display:block;
+			}
+			
+			
+			
+			.sub-div4 {
+				position:relative;
+			}
+			.div4 {
+				border:2px solid black;
+				position:absolute;
+				width:1150px; 
+				
+				padding:5px; 
+				margin-left:-120px;  
+				display:none;
+				top:51px;
+				
+			}
+			.sub-div4:hover {
+				background-color:white;
+			}
+			.sub-div4:hover .div4 {
+				display:block;
+			}
+	
+	
+	
+			.sub-div5 {
+				position:relative;
+			}
+			.div5 {
+				border:2px solid black;
+				position:absolute;
+				width:1150px; 
+				
+				padding:5px; 
+				margin-left:-240px;  
+				display:none;
+				top:51px;
+				
+			}
+			.sub-div5:hover {
+				background-color:white;
+			}
+			.sub-div5:hover .div5 {
+				display:block;
+			}
+	
+	
+	
+			
+			.sub-div6 {
+				position:relative;
+			}
+			.div6 {
+				border:2px solid black;
+				position:absolute;
+				width:1150px; 
+				
+				padding:5px; 
+				margin-left:-290px;  
+				display:none;
+				top:51px;
+				
+			}
+			.sub-div6:hover {
+				background-color:white;
+			}
+			.sub-div6:hover .div6 {
+				display:block;
+			}
+	
+			
+			
+			.sub-div7 {
+				position:relative;
+			}
+			.div7 {
+				border:2px solid black;
+				position:absolute;
+				width:450px; 
+				height:500px;
+				padding:5px; 
+				margin-left:-250px;  
+				display:none;
+				top:51px;
+				
+			}
+			.sub-div7:hover {
+				background-color:white;
+			}
+			.sub-div7:hover .div7 {
+				display:block;
+			}
+	
+		
+	
+	
+	</style>
+	
+</head>
+
+<body style="margin:0px;">
+
+    <div style="width:100%; height:80px; background:white; display:flex; align-items:center; justify-content:space-between; padding:0 40px; box-sizing:border-box; border-bottom:1px solid #ddd;">
+
+        <div style="display:flex; align-items:center;">
+            <img src="C:\Users\Kashish\OneDrive\Desktop\exam\images\myntra.avif" style="width:100px;">
+        </div>
+
+        <div style="display:flex; gap:35px; font-size:14px; margin-left:-10px; font-weight:bold;">
+		
+			<div class="sub-div">
+				<div>MEN</div>
+				
+				<div class="div">
+						
+					<div style="display:flex; justify-content:space-between; padding:30px; background:white;">
+
+					
+						<div style="width:18%; border-right:1px solid #eee; padding-right:20px;">
+							<h3 style="color:#ff4f7b;">Topwear</h3>
+							<p>T-Shirts</p>
+							<p>Casual Shirts</p>
+							<p>Formal Shirts</p>
+							<p>Sweatshirts</p>
+							<p>Sweaters</p>
+							<p>Jackets</p>
+							<p>Blazers & Coats</p>
+							<p>Suits</p>
+							<p>Rain Jackets</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Indian & Festive Wear</h3>
+							<p>Kurtas & Kurta Sets</p>
+							<p>Sherwanis</p>
+							<p>Nehru Jackets</p>
+							<p>Dhotis</p>
+						</div>
+
+						
+						<div style="width:18%; border-right:1px solid #eee; padding:0 20px;">
+							<h3 style="color:#ff4f7b;">Bottomwear</h3>
+							<p>Jeans</p>
+							<p>Casual Trousers</p>
+							<p>Formal Trousers</p>
+							<p>Shorts</p>
+							<p>Track Pants & Joggers</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Innerwear & Sleepwear</h3>
+							<p>Briefs & Trunks</p>
+							<p>Boxers</p>
+							<p>Vests</p>
+							<p>Sleepwear & Loungewear</p>
+							<p>Thermals</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Plus Size</h3>
+						</div>
+
+						
+						
+						<div style="width:18%; border-right:1px solid #eee; padding:0 20px;">
+							<h3 style="color:#ff4f7b;">Footwear</h3>
+							<p>Casual Shoes</p>
+							<p>Sports Shoes</p>
+							<p>Formal Shoes</p>
+							<p>Sneakers</p>
+							<p>Sandals & Floaters</p>
+							<p>Flip Flops</p>
+							<p>Socks</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Personal Care & Grooming</h3>
+
+							<h3 style="color:#ff4f7b;">Sunglasses & Frames</h3>
+
+							<h3 style="color:#ff4f7b;">Watches</h3>
+						</div>
+
+						
+						
+						<div style="width:18%; border-right:1px solid #eee; padding:0 20px;">
+							<h3 style="color:#ff4f7b;">Sports & Active Wear</h3>
+							<p>Sports Shoes</p>
+							<p>Sports Sandals</p>
+							<p>Active T-Shirts</p>
+							<p>Track Pants & Shorts</p>
+							<p>Tracksuits</p>
+							<p>Jackets & Sweatshirts</p>
+							<p>Sports Accessories</p>
+							<p>Swimwear</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Gadgets</h3>
+							<p>Smart Wearables</p>
+							<p>Fitness Gadgets</p>
+							<p>Headphones</p>
+							<p>Speakers</p>
+						</div>
+
+						
+						
+						<div style="width:18%; padding-left:20px;">
+							<h3 style="color:#ff4f7b;">Fashion Accessories</h3>
+							<p>Wallets</p>
+							<p>Belts</p>
+							<p>Perfumes & Body Mists</p>
+							<p>Trimmers</p>
+							<p>Deodorants</p>
+							<p>Ties, Cufflinks & Pocket Squares</p>
+							<p>Accessory Gift Sets</p>
+							<p>Caps & Hats</p>
+							<p>Mufflers, Scarves & Gloves</p>
+							<p>Phone Cases</p>
+							<p>Rings & Wristwear</p>
+							<p>Helmets</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Bags & Backpacks</h3>
+
+							<h3 style="color:#ff4f7b;">Luggages & Trolleys</h3>
+						</div>
+
+					</div>
+
+				</div>
+				
+			</div>
+			
+			
+			
+		<div class="sub-div1" >	
+            <div>WOMEN</div>
+			
+				<div class="div1" >
+					<div style="display:flex; justify-content:space-between; padding:30px; background:white;">
+
+					
+						<div style="width:18%; border-right:1px solid #eee; padding-right:20px;">
+							<h3 style="color:#ff4f7b;">Topwear</h3>
+							<p>T-Shirts</p>
+							<p>Casual Shirts</p>
+							<p>Formal Shirts</p>
+							<p>Sweatshirts</p>
+							<p>Sweaters</p>
+							<p>Jackets</p>
+							<p>Blazers & Coats</p>
+							<p>Suits</p>
+							<p>Rain Jackets</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Indian & Festive Wear</h3>
+							<p>Kurtas & Kurta Sets</p>
+							<p>Sherwanis</p>
+							<p>Nehru Jackets</p>
+							<p>Dhotis</p>
+						</div>
+
+						
+						<div style="width:18%; border-right:1px solid #eee; padding:0 20px;">
+							<h3 style="color:#ff4f7b;">Bottomwear</h3>
+							<p>Jeans</p>
+							<p>Casual Trousers</p>
+							<p>Formal Trousers</p>
+							<p>Shorts</p>
+							<p>Track Pants & Joggers</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Innerwear & Sleepwear</h3>
+							<p>Briefs & Trunks</p>
+							<p>Boxers</p>
+							<p>Vests</p>
+							<p>Sleepwear & Loungewear</p>
+							<p>Thermals</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Plus Size</h3>
+						</div>
+
+						
+						
+						<div style="width:18%; border-right:1px solid #eee; padding:0 20px;">
+							<h3 style="color:#ff4f7b;">Footwear</h3>
+							<p>Casual Shoes</p>
+							<p>Sports Shoes</p>
+							<p>Formal Shoes</p>
+							<p>Sneakers</p>
+							<p>Sandals & Floaters</p>
+							<p>Flip Flops</p>
+							<p>Socks</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Personal Care & Grooming</h3>
+
+							<h3 style="color:#ff4f7b;">Sunglasses & Frames</h3>
+
+							<h3 style="color:#ff4f7b;">Watches</h3>
+						</div>
+
+						
+						
+						<div style="width:18%; border-right:1px solid #eee; padding:0 20px;">
+							<h3 style="color:#ff4f7b;">Sports & Active Wear</h3>
+							<p>Sports Shoes</p>
+							<p>Sports Sandals</p>
+							<p>Active T-Shirts</p>
+							<p>Track Pants & Shorts</p>
+							<p>Tracksuits</p>
+							<p>Jackets & Sweatshirts</p>
+							<p>Sports Accessories</p>
+							<p>Swimwear</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Gadgets</h3>
+							<p>Smart Wearables</p>
+							<p>Fitness Gadgets</p>
+							<p>Headphones</p>
+							<p>Speakers</p>
+						</div>
+
+						
+						
+						<div style="width:18%; padding-left:20px;">
+							<h3 style="color:#ff4f7b;">Fashion Accessories</h3>
+							<p>Wallets</p>
+							<p>Belts</p>
+							<p>Perfumes & Body Mists</p>
+							<p>Trimmers</p>
+							<p>Deodorants</p>
+							<p>Ties, Cufflinks & Pocket Squares</p>
+							<p>Accessory Gift Sets</p>
+							<p>Caps & Hats</p>
+							<p>Mufflers, Scarves & Gloves</p>
+							<p>Phone Cases</p>
+							<p>Rings & Wristwear</p>
+							<p>Helmets</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Bags & Backpacks</h3>
+
+							<h3 style="color:#ff4f7b;">Luggages & Trolleys</h3>
+						</div>
+
+					</div>
+
+				</div>
+					
+		</div>
+		
+			
+			
+			
+		<div class="sub-div3" >	
+            <div>KIDS</div>
+			
+			<div class="div3 " >
+									<div style="display:flex; justify-content:space-between; padding:30px; background:white;">
+
+					
+						<div style="width:18%; border-right:1px solid #eee; padding-right:20px;">
+							<h3 style="color:#ff4f7b;">Topwear</h3>
+							<p>T-Shirts</p>
+							<p>Casual Shirts</p>
+							<p>Formal Shirts</p>
+							<p>Sweatshirts</p>
+							<p>Sweaters</p>
+							<p>Jackets</p>
+							<p>Blazers & Coats</p>
+							<p>Suits</p>
+							<p>Rain Jackets</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Indian & Festive Wear</h3>
+							<p>Kurtas & Kurta Sets</p>
+							<p>Sherwanis</p>
+							<p>Nehru Jackets</p>
+							<p>Dhotis</p>
+						</div>
+
+						
+						<div style="width:18%; border-right:1px solid #eee; padding:0 20px;">
+							<h3 style="color:#ff4f7b;">Bottomwear</h3>
+							<p>Jeans</p>
+							<p>Casual Trousers</p>
+							<p>Formal Trousers</p>
+							<p>Shorts</p>
+							<p>Track Pants & Joggers</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Innerwear & Sleepwear</h3>
+							<p>Briefs & Trunks</p>
+							<p>Boxers</p>
+							<p>Vests</p>
+							<p>Sleepwear & Loungewear</p>
+							<p>Thermals</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Plus Size</h3>
+						</div>
+
+						
+						
+						<div style="width:18%; border-right:1px solid #eee; padding:0 20px;">
+							<h3 style="color:#ff4f7b;">Footwear</h3>
+							<p>Casual Shoes</p>
+							<p>Sports Shoes</p>
+							<p>Formal Shoes</p>
+							<p>Sneakers</p>
+							<p>Sandals & Floaters</p>
+							<p>Flip Flops</p>
+							<p>Socks</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Personal Care & Grooming</h3>
+
+							<h3 style="color:#ff4f7b;">Sunglasses & Frames</h3>
+
+							<h3 style="color:#ff4f7b;">Watches</h3>
+						</div>
+
+						
+						
+						<div style="width:18%; border-right:1px solid #eee; padding:0 20px;">
+							<h3 style="color:#ff4f7b;">Sports & Active Wear</h3>
+							<p>Sports Shoes</p>
+							<p>Sports Sandals</p>
+							<p>Active T-Shirts</p>
+							<p>Track Pants & Shorts</p>
+							<p>Tracksuits</p>
+							<p>Jackets & Sweatshirts</p>
+							<p>Sports Accessories</p>
+							<p>Swimwear</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Gadgets</h3>
+							<p>Smart Wearables</p>
+							<p>Fitness Gadgets</p>
+							<p>Headphones</p>
+							<p>Speakers</p>
+						</div>
+
+						
+						
+						<div style="width:18%; padding-left:20px;">
+							<h3 style="color:#ff4f7b;">Fashion Accessories</h3>
+							<p>Wallets</p>
+							<p>Belts</p>
+							<p>Perfumes & Body Mists</p>
+							<p>Trimmers</p>
+							<p>Deodorants</p>
+							<p>Ties, Cufflinks & Pocket Squares</p>
+							<p>Accessory Gift Sets</p>
+							<p>Caps & Hats</p>
+							<p>Mufflers, Scarves & Gloves</p>
+							<p>Phone Cases</p>
+							<p>Rings & Wristwear</p>
+							<p>Helmets</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Bags & Backpacks</h3>
+
+							<h3 style="color:#ff4f7b;">Luggages & Trolleys</h3>
+						</div>
+
+					</div>
+
+				
+			</div>
+			
+		</div>
+			
+			
+			
+			
+			
+			
+			<div class="sub-div4" >
+				<div>HOME</div>
+				
+					<div class="div4" >
+											<div style="display:flex; justify-content:space-between; padding:30px; background:white;">
+
+					
+						<div style="width:18%; border-right:1px solid #eee; padding-right:20px;">
+							<h3 style="color:#ff4f7b;">Topwear</h3>
+							<p>T-Shirts</p>
+							<p>Casual Shirts</p>
+							<p>Formal Shirts</p>
+							<p>Sweatshirts</p>
+							<p>Sweaters</p>
+							<p>Jackets</p>
+							<p>Blazers & Coats</p>
+							<p>Suits</p>
+							<p>Rain Jackets</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Indian & Festive Wear</h3>
+							<p>Kurtas & Kurta Sets</p>
+							<p>Sherwanis</p>
+							<p>Nehru Jackets</p>
+							<p>Dhotis</p>
+						</div>
+
+						
+						<div style="width:18%; border-right:1px solid #eee; padding:0 20px;">
+							<h3 style="color:#ff4f7b;">Bottomwear</h3>
+							<p>Jeans</p>
+							<p>Casual Trousers</p>
+							<p>Formal Trousers</p>
+							<p>Shorts</p>
+							<p>Track Pants & Joggers</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Innerwear & Sleepwear</h3>
+							<p>Briefs & Trunks</p>
+							<p>Boxers</p>
+							<p>Vests</p>
+							<p>Sleepwear & Loungewear</p>
+							<p>Thermals</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Plus Size</h3>
+						</div>
+
+						
+						
+						<div style="width:18%; border-right:1px solid #eee; padding:0 20px;">
+							<h3 style="color:#ff4f7b;">Footwear</h3>
+							<p>Casual Shoes</p>
+							<p>Sports Shoes</p>
+							<p>Formal Shoes</p>
+							<p>Sneakers</p>
+							<p>Sandals & Floaters</p>
+							<p>Flip Flops</p>
+							<p>Socks</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Personal Care & Grooming</h3>
+
+							<h3 style="color:#ff4f7b;">Sunglasses & Frames</h3>
+
+							<h3 style="color:#ff4f7b;">Watches</h3>
+						</div>
+
+						
+						
+						<div style="width:18%; border-right:1px solid #eee; padding:0 20px;">
+							<h3 style="color:#ff4f7b;">Sports & Active Wear</h3>
+							<p>Sports Shoes</p>
+							<p>Sports Sandals</p>
+							<p>Active T-Shirts</p>
+							<p>Track Pants & Shorts</p>
+							<p>Tracksuits</p>
+							<p>Jackets & Sweatshirts</p>
+							<p>Sports Accessories</p>
+							<p>Swimwear</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Gadgets</h3>
+							<p>Smart Wearables</p>
+							<p>Fitness Gadgets</p>
+							<p>Headphones</p>
+							<p>Speakers</p>
+						</div>
+
+						
+						
+						<div style="width:18%; padding-left:20px;">
+							<h3 style="color:#ff4f7b;">Fashion Accessories</h3>
+							<p>Wallets</p>
+							<p>Belts</p>
+							<p>Perfumes & Body Mists</p>
+							<p>Trimmers</p>
+							<p>Deodorants</p>
+							<p>Ties, Cufflinks & Pocket Squares</p>
+							<p>Accessory Gift Sets</p>
+							<p>Caps & Hats</p>
+							<p>Mufflers, Scarves & Gloves</p>
+							<p>Phone Cases</p>
+							<p>Rings & Wristwear</p>
+							<p>Helmets</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Bags & Backpacks</h3>
+
+							<h3 style="color:#ff4f7b;">Luggages & Trolleys</h3>
+						</div>
+
+					</div>
+
+					
+				</div>
+			</div>
+			
+			
+			
+			<div class="sub-div5" >
+				<div>BEAUTY</div>
+					
+					<div class="div5">
+											<div style="display:flex; justify-content:space-between; padding:30px; background:white;">
+
+					
+						<div style="width:18%; border-right:1px solid #eee; padding-right:20px;">
+							<h3 style="color:#ff4f7b;">Topwear</h3>
+							<p>T-Shirts</p>
+							<p>Casual Shirts</p>
+							<p>Formal Shirts</p>
+							<p>Sweatshirts</p>
+							<p>Sweaters</p>
+							<p>Jackets</p>
+							<p>Blazers & Coats</p>
+							<p>Suits</p>
+							<p>Rain Jackets</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Indian & Festive Wear</h3>
+							<p>Kurtas & Kurta Sets</p>
+							<p>Sherwanis</p>
+							<p>Nehru Jackets</p>
+							<p>Dhotis</p>
+						</div>
+
+						
+						<div style="width:18%; border-right:1px solid #eee; padding:0 20px;">
+							<h3 style="color:#ff4f7b;">Bottomwear</h3>
+							<p>Jeans</p>
+							<p>Casual Trousers</p>
+							<p>Formal Trousers</p>
+							<p>Shorts</p>
+							<p>Track Pants & Joggers</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Innerwear & Sleepwear</h3>
+							<p>Briefs & Trunks</p>
+							<p>Boxers</p>
+							<p>Vests</p>
+							<p>Sleepwear & Loungewear</p>
+							<p>Thermals</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Plus Size</h3>
+						</div>
+
+						
+						
+						<div style="width:18%; border-right:1px solid #eee; padding:0 20px;">
+							<h3 style="color:#ff4f7b;">Footwear</h3>
+							<p>Casual Shoes</p>
+							<p>Sports Shoes</p>
+							<p>Formal Shoes</p>
+							<p>Sneakers</p>
+							<p>Sandals & Floaters</p>
+							<p>Flip Flops</p>
+							<p>Socks</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Personal Care & Grooming</h3>
+
+							<h3 style="color:#ff4f7b;">Sunglasses & Frames</h3>
+
+							<h3 style="color:#ff4f7b;">Watches</h3>
+						</div>
+
+						
+						
+						<div style="width:18%; border-right:1px solid #eee; padding:0 20px;">
+							<h3 style="color:#ff4f7b;">Sports & Active Wear</h3>
+							<p>Sports Shoes</p>
+							<p>Sports Sandals</p>
+							<p>Active T-Shirts</p>
+							<p>Track Pants & Shorts</p>
+							<p>Tracksuits</p>
+							<p>Jackets & Sweatshirts</p>
+							<p>Sports Accessories</p>
+							<p>Swimwear</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Gadgets</h3>
+							<p>Smart Wearables</p>
+							<p>Fitness Gadgets</p>
+							<p>Headphones</p>
+							<p>Speakers</p>
+						</div>
+
+						
+						
+						<div style="width:18%; padding-left:20px;">
+							<h3 style="color:#ff4f7b;">Fashion Accessories</h3>
+							<p>Wallets</p>
+							<p>Belts</p>
+							<p>Perfumes & Body Mists</p>
+							<p>Trimmers</p>
+							<p>Deodorants</p>
+							<p>Ties, Cufflinks & Pocket Squares</p>
+							<p>Accessory Gift Sets</p>
+							<p>Caps & Hats</p>
+							<p>Mufflers, Scarves & Gloves</p>
+							<p>Phone Cases</p>
+							<p>Rings & Wristwear</p>
+							<p>Helmets</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Bags & Backpacks</h3>
+
+							<h3 style="color:#ff4f7b;">Luggages & Trolleys</h3>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+			
+			
+			
+			
+		<div class="sub-div6" >	
+            <div>GENZ</div>
+			
+			<div class="div6" >
+										<div style="display:flex; justify-content:space-between; padding:30px; background:white;">
+
+					
+						<div style="width:18%; border-right:1px solid #eee; padding-right:20px;">
+							<h3 style="color:#ff4f7b;">Topwear</h3>
+							<p>T-Shirts</p>
+							<p>Casual Shirts</p>
+							<p>Formal Shirts</p>
+							<p>Sweatshirts</p>
+							<p>Sweaters</p>
+							<p>Jackets</p>
+							<p>Blazers & Coats</p>
+							<p>Suits</p>
+							<p>Rain Jackets</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Indian & Festive Wear</h3>
+							<p>Kurtas & Kurta Sets</p>
+							<p>Sherwanis</p>
+							<p>Nehru Jackets</p>
+							<p>Dhotis</p>
+						</div>
+
+						
+						<div style="width:18%; border-right:1px solid #eee; padding:0 20px;">
+							<h3 style="color:#ff4f7b;">Bottomwear</h3>
+							<p>Jeans</p>
+							<p>Casual Trousers</p>
+							<p>Formal Trousers</p>
+							<p>Shorts</p>
+							<p>Track Pants & Joggers</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Innerwear & Sleepwear</h3>
+							<p>Briefs & Trunks</p>
+							<p>Boxers</p>
+							<p>Vests</p>
+							<p>Sleepwear & Loungewear</p>
+							<p>Thermals</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Plus Size</h3>
+						</div>
+
+						
+						
+						<div style="width:18%; border-right:1px solid #eee; padding:0 20px;">
+							<h3 style="color:#ff4f7b;">Footwear</h3>
+							<p>Casual Shoes</p>
+							<p>Sports Shoes</p>
+							<p>Formal Shoes</p>
+							<p>Sneakers</p>
+							<p>Sandals & Floaters</p>
+							<p>Flip Flops</p>
+							<p>Socks</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Personal Care & Grooming</h3>
+
+							<h3 style="color:#ff4f7b;">Sunglasses & Frames</h3>
+
+							<h3 style="color:#ff4f7b;">Watches</h3>
+						</div>
+
+						
+						
+						<div style="width:18%; border-right:1px solid #eee; padding:0 20px;">
+							<h3 style="color:#ff4f7b;">Sports & Active Wear</h3>
+							<p>Sports Shoes</p>
+							<p>Sports Sandals</p>
+							<p>Active T-Shirts</p>
+							<p>Track Pants & Shorts</p>
+							<p>Tracksuits</p>
+							<p>Jackets & Sweatshirts</p>
+							<p>Sports Accessories</p>
+							<p>Swimwear</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Gadgets</h3>
+							<p>Smart Wearables</p>
+							<p>Fitness Gadgets</p>
+							<p>Headphones</p>
+							<p>Speakers</p>
+						</div>
+
+						
+						
+						<div style="width:18%; padding-left:20px;">
+							<h3 style="color:#ff4f7b;">Fashion Accessories</h3>
+							<p>Wallets</p>
+							<p>Belts</p>
+							<p>Perfumes & Body Mists</p>
+							<p>Trimmers</p>
+							<p>Deodorants</p>
+							<p>Ties, Cufflinks & Pocket Squares</p>
+							<p>Accessory Gift Sets</p>
+							<p>Caps & Hats</p>
+							<p>Mufflers, Scarves & Gloves</p>
+							<p>Phone Cases</p>
+							<p>Rings & Wristwear</p>
+							<p>Helmets</p>
+
+							<hr>
+
+							<h3 style="color:#ff4f7b;">Bags & Backpacks</h3>
+
+							<h3 style="color:#ff4f7b;">Luggages & Trolleys</h3>
+						</div>
+
+					</div>
+
+			</div>
+			
+		</div>
+			
+			<div class="sub-div7" >
+				<div>STUDIO <span style="color:red; font-size:10px;"><sup>NEW</sup></span></div>
+				
+				<div class="div7 " >
+					<img src= "C:\Users\Kashish\OneDrive\Desktop\exam\images\oQ9rf5t7_688dd92671384197906a2edd6193cbfa.webp" alt="image" width="450px" height="500px">
+				
+				</div>
+			</div>
+			
+			
+			
+			
+			
+			
+        </div>
+
+        <div>
+            <input type="text"
+                   placeholder="Search for products, brands and more"
+                   style="width:420px; height:40px; border:none; background:#f5f5f6; padding-left:15px; border-radius:4px;">
+        </div>
+
+
+        <div style="display:flex; gap:25px; font-size:14px; text-align:center; font-weight:bold;">
+            <div>👤 <br>Profile</div>
+            <div>♡<br>Wishlist</div>
+            <div>👜<br>Bag</div>
+        </div>
+    </div>
+
+
+	<div style="width:100%; background:#fff4c7; text-align:center; padding:20px 0; font-size:55px; font-weight:bold; color:#1c2d7a;">
+        FLAT ₹300 OFF
+    </div>
+
+     <div style="width:100%;">
+        <img src="C:\Users\Kashish\OneDrive\Desktop\exam\images\oQ9rf5t7_688dd92671384197906a2edd6193cbfa.webp" style="width:100%; height:520px;">
+     </div>
+
+        
+     
+   
+    <div style="width:100%; background:white; padding:25px 0; display:flex; justify-content:center; align-items:center; gap:40px; border-top:1px solid #ddd;">
+
+        <div style="width:140px; height:80px; background:#f2f2f2; display:flex; justify-content:center; align-items:center; font-size:30px; font-weight:bold;">
+            CRED
+        </div>
+
+        <div style="width:140px; height:80px; background:#00baf2; color:white; display:flex; justify-content:center; align-items:center; font-size:30px; font-weight:bold;">
+            Paytm
+        </div>
+
+        <div style="font-size:50px; font-weight:bold;">
+            Upto Rs.100* Cashback
+        </div>
+    </div> 
+	
+	<div style="width:100%; background:#fff4c7; text-align:center; padding:20px 0; font-size:45px; font-weight:bold; color:#a35c1d">
+        BUDGET FRIENDLY PICKS 
+    </div>
+	<br>
+	
+
+	
+    <div style="background:#fff4c7; padding:20px; text-align:center;">
+        <h1 style="margin:0;  color:#a35c1d; font-size:55px; font-weight:bold;">
+            SHOP BY CATEGORY
+        </h1>
+    </div>
+
+    <div style="width:95%; margin:auto; padding-top:20px;">
+
+        <div style="display:flex; justify-content:space-between; margin-bottom:35px;">
+
+          
+            <div style="width:15%; background:#f7b500; border:4px solid #c98c00; text-align:center;">
+                <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400"
+                     style="width:100%; height:260px; object-fit:cover;">
+                <div style="padding:10px; color:white;">
+                    <h3 style="margin:5px 0; font-size:18px;">Ethnic Wear</h3>
+                    <h2 style="margin:5px 0; font-size:22px;">50-80% OFF</h2>
+                    <p style="margin:0; font-size:18px;">Shop Now</p>
+                </div>
+            </div>
+
+            <div style="width:15%; background:#f7b500; border:4px solid #c98c00; text-align:center;">
+                <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400"
+                     style="width:100%; height:260px; object-fit:cover;">
+                <div style="padding:10px; color:white;">
+                    <h3 style="margin:5px 0; font-size:18px;">Casual Wear</h3>
+                    <h2 style="margin:5px 0; font-size:22px;">40-80% OFF</h2>
+                    <p style="margin:0; font-size:18px;">Shop Now</p>
+                </div>
+            </div>
+
+            <div style="width:15%; background:#f7b500; border:4px solid #c98c00; text-align:center;">
+                <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400"
+                     style="width:100%; height:260px; object-fit:cover;">
+                <div style="padding:10px; color:white;">
+                    <h3 style="margin:5px 0; font-size:18px;">Men's Activewear</h3>
+                    <h2 style="margin:5px 0; font-size:22px;">30-70% OFF</h2>
+                    <p style="margin:0; font-size:18px;">Shop Now</p>
+                </div>
+            </div>
+
+            <div style="width:15%; background:#f7b500; border:4px solid #c98c00; text-align:center;">
+                <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400"
+                     style="width:100%; height:260px; object-fit:cover;">
+                <div style="padding:10px; color:white;">
+                    <h3 style="margin:5px 0; font-size:18px;">Women's Activewear</h3>
+                    <h2 style="margin:5px 0; font-size:22px;">30-70% OFF</h2>
+                    <p style="margin:0; font-size:18px;">Shop Now</p>
+                </div>
+            </div>
+
+            <div style="width:15%; background:#f7b500; border:4px solid #c98c00; text-align:center;">
+                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=400"
+                     style="width:100%; height:260px; object-fit:cover;">
+                <div style="padding:10px; color:white;">
+                    <h3 style="margin:5px 0; font-size:18px;">Western Wear</h3>
+                    <h2 style="margin:5px 0; font-size:22px;">40-80% OFF</h2>
+                    <p style="margin:0; font-size:18px;">Shop Now</p>
+                </div>
+            </div>
+
+            <div style="width:15%; background:#f7b500; border:4px solid #c98c00; text-align:center;">
+                <img src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?w=400"
+                     style="width:100%; height:260px; object-fit:cover;">
+                <div style="padding:10px; color:white;">
+                    <h3 style="margin:5px 0; font-size:18px;">Sportswear</h3>
+                    <h2 style="margin:5px 0; font-size:22px;">30-80% OFF</h2>
+                    <p style="margin:0; font-size:18px;">Shop Now</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div style="display:flex; justify-content:space-between;">
+
+            <div style="width:15%; background:#f7b500; border:4px solid #c98c00; text-align:center;">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400"
+                     style="width:100%; height:260px; object-fit:cover;">
+                <div style="padding:10px; color:white;">
+                    <h3 style="margin:5px 0; font-size:18px;">Loungewear</h3>
+                    <h2 style="margin:5px 0; font-size:22px;">20-70% OFF</h2>
+                </div>
+            </div>
+
+            <div style="width:15%; background:#f7b500; border:4px solid #c98c00; text-align:center;">
+                <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400"
+                     style="width:100%; height:260px; object-fit:cover;">
+                <div style="padding:10px; color:white;">
+                    <h3 style="margin:5px 0; font-size:18px;">Innerwear</h3>
+                    <h2 style="margin:5px 0; font-size:22px;">UP TO 70% OFF</h2>
+                </div>
+            </div>
+
+            <div style="width:15%; background:#f7b500; border:4px solid #c98c00; text-align:center;">
+                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400"
+                     style="width:100%; height:260px; object-fit:cover;">
+                <div style="padding:10px; color:white;">
+                    <h3 style="margin:5px 0; font-size:18px;">Lingerie</h3>
+                    <h2 style="margin:5px 0; font-size:22px;">UP TO 70% OFF</h2>
+                </div>
+            </div>
+
+            <div style="width:15%; background:#f7b500; border:4px solid #c98c00; text-align:center;">
+                <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=400"
+                     style="width:100%; height:260px; object-fit:cover;">
+                <div style="padding:10px; color:white;">
+                    <h3 style="margin:5px 0; font-size:18px;">Watches</h3>
+                    <h2 style="margin:5px 0; font-size:22px;">UP TO 80% OFF</h2>
+                </div>
+            </div>
+
+            <div style="width:15%; background:#f7b500; border:4px solid #c98c00; text-align:center;">
+                <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=400"
+                     style="width:100%; height:260px; object-fit:cover;">
+                <div style="padding:10px; color:white;">
+                    <h3 style="margin:5px 0; font-size:18px;">Grooming</h3>
+                    <h2 style="margin:5px 0; font-size:22px;">UP TO 60% OFF</h2>
+                </div>
+            </div>
+
+            <div style="width:15%; background:#f7b500; border:4px solid #c98c00; text-align:center;">
+                <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=400"
+                     style="width:100%; height:260px; object-fit:cover;">
+                <div style="padding:10px; color:white;">
+                    <h3 style="margin:5px 0; font-size:18px;">Beauty & Makeup</h3>
+                    <h2 style="margin:5px 0; font-size:22px;">UP TO 60% OFF</h2>
+                </div>
+            </div>
+
+        </div>
+		
+		
+		<br><br>
+		 <div style="display:flex; justify-content:space-between; margin-bottom:35px;">
+
+          
+            <div style="width:15%; background:#f7b500; border:4px solid #c98c00; text-align:center;">
+                <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400"
+                     style="width:100%; height:260px; object-fit:cover;">
+                <div style="padding:10px; color:white;">
+                    <h3 style="margin:5px 0; font-size:18px;">Ethnic Wear</h3>
+                    <h2 style="margin:5px 0; font-size:22px;">50-80% OFF</h2>
+                    <p style="margin:0; font-size:18px;">Shop Now</p>
+                </div>
+            </div>
+
+            <div style="width:15%; background:#f7b500; border:4px solid #c98c00; text-align:center;">
+                <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400"
+                     style="width:100%; height:260px; object-fit:cover;">
+                <div style="padding:10px; color:white;">
+                    <h3 style="margin:5px 0; font-size:18px;">Casual Wear</h3>
+                    <h2 style="margin:5px 0; font-size:22px;">40-80% OFF</h2>
+                    <p style="margin:0; font-size:18px;">Shop Now</p>
+                </div>
+            </div>
+
+            <div style="width:15%; background:#f7b500; border:4px solid #c98c00; text-align:center;">
+                <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400"
+                     style="width:100%; height:260px; object-fit:cover;">
+                <div style="padding:10px; color:white;">
+                    <h3 style="margin:5px 0; font-size:18px;">Men's Activewear</h3>
+                    <h2 style="margin:5px 0; font-size:22px;">30-70% OFF</h2>
+                    <p style="margin:0; font-size:18px;">Shop Now</p>
+                </div>
+            </div>
+
+            <div style="width:15%; background:#f7b500; border:4px solid #c98c00; text-align:center;">
+                <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400"
+                     style="width:100%; height:260px; object-fit:cover;">
+                <div style="padding:10px; color:white;">
+                    <h3 style="margin:5px 0; font-size:18px;">Women's Activewear</h3>
+                    <h2 style="margin:5px 0; font-size:22px;">30-70% OFF</h2>
+                    <p style="margin:0; font-size:18px;">Shop Now</p>
+                </div>
+            </div>
+
+            <div style="width:15%; background:#f7b500; border:4px solid #c98c00; text-align:center;">
+                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=400"
+                     style="width:100%; height:260px; object-fit:cover;">
+                <div style="padding:10px; color:white;">
+                    <h3 style="margin:5px 0; font-size:18px;">Western Wear</h3>
+                    <h2 style="margin:5px 0; font-size:22px;">40-80% OFF</h2>
+                    <p style="margin:0; font-size:18px;">Shop Now</p>
+                </div>
+            </div>
+
+            <div style="width:15%; background:#f7b500; border:4px solid #c98c00; text-align:center;">
+                <img src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?w=400"
+                     style="width:100%; height:260px; object-fit:cover;">
+                <div style="padding:10px; color:white;">
+                    <h3 style="margin:5px 0; font-size:18px;">Sportswear</h3>
+                    <h2 style="margin:5px 0; font-size:22px;">30-80% OFF</h2>
+                    <p style="margin:0; font-size:18px;">Shop Now</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+	<br><br>
+	
+	
+	
+	
+	
+	
+
+    <div style="width:100%; background:linear-gradient(to right,#f7f2df,#f5eecf); padding:40px 20px; display:flex; align-items:center; justify-content:center; box-sizing:border-box;">
+
+        <div style="width:25%; text-align:center;">
+            <img src="" alt="mobile" style="width:180px; height:auto;">
+        </div>
+
+        <div style="width:75%; text-align:center;">
+
+            <h1 style="font-size:48px; color:#0b2c7a; margin:0; font-weight:bold;">
+                MORE KNOCKOUT OFFERS WAITING!
+            </h1>
+
+            <div style="font-size:32px; color:#1c2f6b; margin-top:20px;">
+                Only On The 
+                <span style="color:#ff3f6c; font-weight:bold;">M</span>
+                App
+            </div>
+
+          
+
+
+            <div style="margin-top:25px; display:flex; justify-content:center; gap:20px;">
+			  <div style="font-size:28px; color:#1c2f6b; margin-top:20px;">
+                Download Now
+            </div>
+
+                <div style="background:white; border:1px solid #ccc; padding:10px 20px; border-radius:8px; display:flex; align-items:center;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" style="height:50px;">
+                </div>
+
+                <div style="background:white; border:1px solid #ccc; padding:10px 20px; border-radius:8px; display:flex; align-items:center;">
+                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" style="height:50px;">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+	
+	
+	
+	
+
+
+</body>
+</html>

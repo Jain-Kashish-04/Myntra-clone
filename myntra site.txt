@@ -1,0 +1,5 @@
+This i have made with HTML and basics of CSS properties
+
+
+Myntra is a popular online shopping platform in India that mainly focuses on fashion and lifestyle products. It offers a wide range of clothing, footwear, accessories, beauty products, and home decor items from various brands. Myntra provides features like easy product search, secure online payment, order tracking, discounts, and fast delivery. The website has a user-friendly interface and helps customers shop conveniently from anywhere using mobile or desktop devices.
+
